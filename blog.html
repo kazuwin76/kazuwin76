@@ -15,7 +15,26 @@
     <a href="blog.html">blog</a>
   </nav>
   <section>
-    <P>Este es el blog</P>
+    <P>Esta parte sera para añadir el repositorio a github</P>
+    <p># Primero: Guardar la URL del repositorio de GitHub <br>
+      # con el nombre de origin
+      git remote add origin URL
+      <br>
+      # Segundo: Verificar que la URL se haya guardado<br>
+      # correctamente:
+      git remote<br>
+      git remote -v<br>
+
+      # Tercero: Traer la versión del repositorio remoto y<br>
+      # hacer merge para crear un commit con los archivos<br>
+      # de ambas partes. Podemos usar git fetch y git merge<br>
+      # o solo el git pull con el flag <br>--allow-unrelated-histories:<br>
+      git pull origin master --allow-unrelated-histories<br>
+
+      # Por último, ahora sí podemos hacer git push para guardar<br>
+      # los cambios de nuestro repositorio local en GitHub:<br>
+      git push origin master<br>
+    </p>
   </section>
 </body>
 
