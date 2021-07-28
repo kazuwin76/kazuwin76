@@ -24,16 +24,17 @@
       # correctamente:
       git remote<br>
       git remote -v<br>
-
+      #ya para conectarse al repositorio seria con <br>
+      git remote set url origin (url se ssh copiado de GitHub)
       # Tercero: Traer la versión del repositorio remoto y<br>
       # hacer merge para crear un commit con los archivos<br>
       # de ambas partes. Podemos usar git fetch y git merge<br>
       # o solo el git pull con el flag <br>--allow-unrelated-histories:<br>
-      git pull origin master --allow-unrelated-histories<br>
+      git pull origin main --allow-unrelated-histories<br>
 
       # Por último, ahora sí podemos hacer git push para guardar<br>
       # los cambios de nuestro repositorio local en GitHub:<br>
-      git push origin master<br>
+      git push origin main<br>
     </p>
   </section>
 </body>
