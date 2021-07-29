@@ -15,27 +15,52 @@
     <a href="blog.html">blog</a>
   </nav>
   <main>
-    <P>Esta parte sera para añadir el repositorio a github</P>
-    <p># Primero: Guardar la URL del repositorio de GitHub <br>
-      # con el nombre de origin
-      git remote add origin URL
+    <h1>Añadir el repositorio a github</h1>
+    <ol>
+      <li>Guardar la URL del repositorio de GitHub <br>
+        <ul>
+          <li>con el nombre de origin
+          </li>
+          <li>git remote add origin URL</li>
+        </ul>
+      </li>
       <br>
-      # Segundo: Verificar que la URL se haya guardado<br>
-      # correctamente:
-      git remote<br>
-      git remote -v<br>
-      #ya para conectarse al repositorio seria con <br>
-      git remote set url origin (url se ssh copiado de GitHub)
-      # Tercero: Traer la versión del repositorio remoto y<br>
-      # hacer merge para crear un commit con los archivos<br>
-      # de ambas partes. Podemos usar git fetch y git merge<br>
-      # o solo el git pull con el flag <br>--allow-unrelated-histories:<br>
-      git pull origin main --allow-unrelated-histories<br>
+      <li>Verificar que la URL se haya guardado correctamente<br>
+        <ul>
+          <li>git remote
+          </li>
+          <li>git remote -v</li>
+          <li>para conectarse al repositorio: <br>
+            <ul>
+              <li>git remote set url origin (url se ssh copiado de GitHub)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <br>
+      <li>Traer la versión del repositorio remoto<br>
 
-      # Por último, ahora sí podemos hacer git push para guardar<br>
-      # los cambios de nuestro repositorio local en GitHub:<br>
-      git push origin main<br>
-    </p>
+        <ul>
+          <li>hacer merge para crear un commit con los archivos de ambas partes
+            <ul>
+              <li>Podemos usar git fetch y git merge</li>
+              <li>o solo el git pull con el flag</li>
+            </ul>
+          </li>
+          <li>git pull origin main</li>
+        </ul>
+      <li>Por último, ahora sí podemos hacer git push para guardar <br>
+        <ul>
+          <li>
+            los cambios de nuestro repositorio local en GitHub:
+            <ul>
+              <li>git push origin main</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <br>
+    </ol>
   </main>
 </body>
 
