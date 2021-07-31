@@ -5,15 +5,23 @@ h1 {
   color: gold;
   font-style: italic;
 }
-a {
-  outline-style: double;
-  padding: 0.7em;
-}
 
 nav {
   margin-top: 1.4em;
   position: absolute;
   right: 2em;
+}
+nav a {
+  border: inset;
+  border-radius: 1em;
+  padding: 0.3em;
+  font-family: "Courier New", Courier, monospace;
+  color: silver;
+  text-decoration: none;
+}
+.actual {
+  color: white;
+  background-color: silver;
 }
 main {
   position: absolute;
